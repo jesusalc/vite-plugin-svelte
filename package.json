@@ -1,6 +1,6 @@
 {
   "name": "@intuivo/intuivo_vite-plugin-svelte",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "jesusalc",
   "files": [
@@ -11,6 +11,9 @@
   "type": "module",
   "types": "dist/index.d.ts",
   "exports": {
+    ".": "./dist/index.js"
+  },
+  "exports2": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
