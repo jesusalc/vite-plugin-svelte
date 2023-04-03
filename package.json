@@ -1,6 +1,6 @@
 {
-  "name": "intuivo_vite-plugin-svelte",
-  "version": "1.0.0",
+  "name": "@intuivo/intuivo_vite-plugin-svelte",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "jesusalc",
   "files": [
@@ -56,11 +56,14 @@
     "rollup": "^3.20.2",
     "svelte": "^3.58.0",
     "tsup": "^6.7.0",
+    "typescript": "^5.0.3",
     "vite": "^4.2.1"
   },
   "scripts": {
     "dev": "pnpm build:ci --sourcemap --watch src",
     "build:ci": "rimraf dist && tsup-node src/index.ts --format esm",
     "build": "pnpm build:ci --dts --sourcemap"
-  }
+  },
+  "description": "## usage",
+  "main": ".eslintrc.js"
 }
